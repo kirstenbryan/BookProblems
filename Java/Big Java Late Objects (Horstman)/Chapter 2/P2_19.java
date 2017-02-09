@@ -17,12 +17,12 @@ public class P2_19 {
 		int monthNumber = input.nextInt();
         	input.close();
 		
-        String months = "January   February  March     April     May       June      July      ";
-        months += "August    September October   November  December  ";
+        	String months = "January   February  March     April     May       June      July      ";
+        	months += "August    September October   November  December  ";
 
-        String monthToReturn = months.substring(-10 + (monthNumber * 10), (monthNumber * 10));
+        	String monthToReturn = months.substring(-10 + (monthNumber * 10), (monthNumber * 10));
         
-        System.out.println(monthToReturn);  
+       		System.out.println(monthToReturn);  
 		
 	}
 
