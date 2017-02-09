@@ -13,7 +13,7 @@ public class P2_1 {
 		final double MILLI_PER_INCH = 25.4;
 		
 		System.out.printf("Letter-size: %.2f", 8.5 * MILLI_PER_INCH);
-	    System.out.printf(" x %.2f millimeters", 11 * MILLI_PER_INCH);
+	   	System.out.printf(" x %.2f millimeters", 11 * MILLI_PER_INCH);
 	    
 	}
 	
