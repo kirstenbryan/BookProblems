@@ -1,4 +1,3 @@
-
 /**
  * P1.20 - To speak more than one language is a valuable skill in the labor market today. One of the basic skills is
  * learning to greet people. Write a program that prints a two-column list with the greeting phrases shown in the 
