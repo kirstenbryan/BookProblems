@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 /**
  * P2.21 - Easter Sunday is the first Sunday after the first full moon of spring. To compute the date, you can use
