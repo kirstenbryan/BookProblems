@@ -20,18 +20,18 @@ public class P2_22 {
 		final double TAX_RATE = 0.075;
 		final int SHIPPING_PER_BOOK = 2;
 		
-        Scanner input = new Scanner(System.in); 
+        	Scanner input = new Scanner(System.in); 
         
-        System.out.println("Please enter the total book price followed by the number of books ordered: ");
-        double bookPrice = input.nextDouble();
-        int numBooks = input.nextInt();
-        input.close();
+        	System.out.println("Please enter the total book price followed by the number of books ordered: ");
+       	 	double bookPrice = input.nextDouble();
+        	int numBooks = input.nextInt();
+        	input.close();
         
-        double tax = bookPrice * TAX_RATE;
-        int shippingCharge = numBooks * SHIPPING_PER_BOOK;
-        double totalPrice = bookPrice + tax + shippingCharge;
+        	double tax = bookPrice * TAX_RATE;
+        	int shippingCharge = numBooks * SHIPPING_PER_BOOK;
+        	double totalPrice = bookPrice + tax + shippingCharge;
         
-        System.out.printf("The total price of the order is $%.2f.", totalPrice);
+       	 	System.out.printf("The total price of the order is $%.2f.", totalPrice);
         
 	}
 
