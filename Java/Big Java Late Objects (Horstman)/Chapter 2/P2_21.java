@@ -23,7 +23,6 @@ import java.util.Scanner;
  * Therefore, in 2001, Easter Sunday fell on April 15. Write a program that prompts the user for a year and prints
  * out the month and day of Easter Sunday.
  *
- * 
  * @author Bryan Kirsten
  *
  */
