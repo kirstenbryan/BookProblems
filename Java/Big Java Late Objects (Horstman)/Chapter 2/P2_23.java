@@ -16,18 +16,18 @@ public class P2_23 {
 	
 	public static void main(String[] args) {
 		
-        Scanner input = new Scanner(System.in); 
+        	Scanner input = new Scanner(System.in); 
         
-        System.out.println("Please enter a ten-digit phone number: ");
-        String tenDigitPhone = input.next();
-        input.close();
+        	System.out.println("Please enter a ten-digit phone number: ");
+       	 	String tenDigitPhone = input.next();
+        	input.close();
         
-        String areaCode = tenDigitPhone.substring(0, 3);
-        String threeDigits = tenDigitPhone.substring(3, 6);
-        String fourDigits = tenDigitPhone.substring(6, tenDigitPhone.length());
-        String formattedPhone = "(" + areaCode + ") " + threeDigits + "-" + fourDigits;
+        	String areaCode = tenDigitPhone.substring(0, 3);
+        	String threeDigits = tenDigitPhone.substring(3, 6);
+        	String fourDigits = tenDigitPhone.substring(6, tenDigitPhone.length());
+        	String formattedPhone = "(" + areaCode + ") " + threeDigits + "-" + fourDigits;
         
-        System.out.println("The formatted phone numbers is: " + formattedPhone);
+       		System.out.println("The formatted phone numbers is: " + formattedPhone);
         
 	}
 
