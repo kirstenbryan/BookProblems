@@ -26,13 +26,13 @@ public class P2_26 {
 		
 		double monthlyInterestRate = annualInterestRate / 12.0 / 100.0;
 
-	    double firstMonth = balance + (balance * monthlyInterestRate);
-	    double secondMonth = firstMonth + (firstMonth * monthlyInterestRate);
-	    double thirdMonth = secondMonth + (secondMonth * monthlyInterestRate);
+	    	double firstMonth = balance + (balance * monthlyInterestRate);
+	    	double secondMonth = firstMonth + (firstMonth * monthlyInterestRate);
+	    	double thirdMonth = secondMonth + (secondMonth * monthlyInterestRate);
 	    
-	    System.out.printf("After first month:\t%.2f\n", firstMonth);
-	    System.out.printf("After second month:\t%.2f\n", secondMonth);
-	    System.out.printf("After third month:\t%.2f\n", thirdMonth);
+	   	System.out.printf("After first month:\t%.2f\n", firstMonth);
+	    	System.out.printf("After second month:\t%.2f\n", secondMonth);
+	    	System.out.printf("After third month:\t%.2f\n", thirdMonth);
 
 	}
 
