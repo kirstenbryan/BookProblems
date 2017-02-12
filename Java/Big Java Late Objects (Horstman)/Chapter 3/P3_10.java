@@ -16,10 +16,10 @@ public class P3_10 {
 		double temperature = input.nextDouble();
 		System.out.print("Enter a 'C' for Celcius or 'F' for Fahrenheit: ");
 		String tempType = input.next();
-	    System.out.print("Enter the altitude: "); 
-	    double altitude = input.nextDouble();
-	    System.out.print("Enter 'M' for meters or 'F' for feet: ");
-	    String altitudeType = input.next();
+	    	System.out.print("Enter the altitude: "); 
+	    	double altitude = input.nextDouble();
+	    	System.out.print("Enter 'M' for meters or 'F' for feet: ");
+	    	String altitudeType = input.next();
 		input.close();
 		
 		if(tempType.toUpperCase().equals("F")) {
