@@ -65,7 +65,6 @@ public class InformationParsing {
       String otherAddressInfo = origAddress.substring(secondLastCommaInAddress + 2, 
                                                       origAddress.length());
       
-
       // Print out a neatly parsed output after modifying the users information
       System.out.println("***** Results *****");
       System.out.println(fullName);
