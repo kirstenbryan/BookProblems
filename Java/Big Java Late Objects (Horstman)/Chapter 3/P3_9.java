@@ -10,7 +10,7 @@ public class P3_9 {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in)
+		Scanner input = new Scanner(System.in);
 
 		System.out.println("Enter a temperature: ");
 		double temperature = input.nextDouble();
