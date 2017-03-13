@@ -17,40 +17,29 @@ public class P3_3 {
 		int num = input.nextInt();
 		input.close();
 		
-		if(num < 0) {
+		if (num < 0)
 			num = num * -1;
-		}
-	
-		if(num >= 1000000000) {
+
+		if (num >= 1000000000)
 			System.out.println("10 digits");
-		}
-		else if(num >= 100000000) {
+		else if (num >= 100000000)
 			System.out.println("9 digits");
-		}
-		else if(num >= 10000000) {
+		else if (num >= 10000000)
 			System.out.println("8 digits");
-		}
-		else if(num >= 1000000) {
+		else if (num >= 1000000)
 			System.out.println("7 digits");
-		}
-		else if(num >= 100000) {
+		else if (num >= 100000)
 			System.out.println("6 digits");
-		}
-		else if(num >= 10000) {
+		else if (num >= 10000)
 			System.out.println("5 digits");
-		}
-		else if(num >= 1000) {
+		else if (num >= 1000)
 			System.out.println("4 digits");
-		}
-		else if(num >= 100) {
+		else if (num >= 100)
 			System.out.println("3 digits");
-		}
-		else if(num >= 10) {
+		else if (num >= 10)
 			System.out.println("2 digits");
-		}
-		else if(num >= 0) {
+		else if (num >= 0)
 			System.out.println("1 digit");
-		}
 		
 	}
 

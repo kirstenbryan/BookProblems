@@ -22,18 +22,14 @@ public class P3_8 {
 		int num4 = input.nextInt();
 		input.close();
 
-		if (num1 == num2 && num3 == num4) {
+		if (num1 == num2 && num3 == num4)
 			System.out.println("Two pairs.");
-		} 
-		else if(num1 == num3 && num2 == num4) {
+		else if (num1 == num3 && num2 == num4)
 			System.out.println("Two pairs.");
-		}
-		else if(num1 == num4 && num2 == num3) {
+		else if (num1 == num4 && num2 == num3)
 			System.out.println("Two pairs.");
-		}
-		else {
+		else
 			System.out.println("Not two pairs.");
-		}
 		
 	}
 

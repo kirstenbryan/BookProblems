@@ -17,20 +17,16 @@ public class P3_9 {
 		System.out.println("Enter a 'C' for Celcius or 'F' for Fahrenheit: ");
 		String tempType = input.next();
 		input.close();
-		
-		if(tempType.toUpperCase().equals("F")) {
-			temperature = (temperature - 32.0) * 5.0 / 9.0;
-		}
 
-		if (temperature >= 100) {
+		if (tempType.toUpperCase().equals("F"))
+			temperature = (temperature - 32.0) * 5.0 / 9.0;
+
+		if (temperature >= 100)
 			System.out.println("The water is gaseous.");
-		} 
-		else if(temperature > 0) {
+		else if (temperature > 0)
 			System.out.println("The water is a liquid");
-		}
-		else {
+		else
 			System.out.println("The water is a solid.");
-		}
 		
 	}
 

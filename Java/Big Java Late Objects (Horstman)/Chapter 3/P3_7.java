@@ -22,12 +22,10 @@ public class P3_7 {
 		int num3 = input.nextInt();
 		input.close();
 
-		if ((num1 <= num2 && num2 <= num3) || (num1 >= num2 && num2 >= num3)) {
+		if ((num1 <= num2 && num2 <= num3) || (num1 >= num2 && num2 >= num3))
 			System.out.println("In order.");
-		} 
-		else {
+		else
 			System.out.println("Not in order.");
-		}
 		
 	}
 

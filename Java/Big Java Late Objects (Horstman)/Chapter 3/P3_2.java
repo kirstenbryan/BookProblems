@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author Bryan Kirsten
  *
  */
+
 public class P3_2 {
 
 	public static void main(String[] args) {
@@ -16,22 +17,17 @@ public class P3_2 {
 		System.out.println("Enter the number: ");
 		double num = input.nextDouble();
 		input.close();
-	
-		if(num > 1000000) {
+
+		if (num > 1000000)
 			System.out.println("Large.");
-		}
-		else if(num == 0) {
-			System.out.println("Zero.");			
-		}
-		else if(Math.abs(num) < 1) {
+		else if (num == 0)
+			System.out.println("Zero.");
+		else if (Math.abs(num) < 1)
 			System.out.println("Small.");
-		}
-		else if(num < 0) {
+		else if (num < 0)
 			System.out.println("Negative.");
-		}
-		else if(num > 0) {
+		else if (num > 0)
 			System.out.println("Positive.");
-		}
 		
 	}
 

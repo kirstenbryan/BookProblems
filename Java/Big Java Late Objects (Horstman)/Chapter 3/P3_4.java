@@ -17,17 +17,14 @@ public class P3_4 {
 		double num2 = input.nextDouble();
 		double num3 = input.nextDouble();
 		input.close();
-	
-		if(num1 == num2 && num1 == num3) {
+
+		if (num1 == num2 && num1 == num3)
 			System.out.println("All the same.");
-		}
-		else if(num1 != num2 && num1 != num3) {
+		else if (num1 != num2 && num1 != num3)
 			System.out.println("All different.");
-		}
-		else {
+		else
 			System.out.println("Neither.");
-		}
-		
+
 	}
 
 }

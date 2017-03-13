@@ -14,17 +14,14 @@ public class P3_1 {
 		System.out.println("Enter the number: ");
 		int num = input.nextInt();
 		input.close();
-	
-		if(num < 0) {
+
+		if (num < 0)
 			System.out.println("Negative.");
-		}
-		else if(num > 0) {
+		else if (num > 0)
 			System.out.println("Positive.");
-		}
-		else {
+		else
 			System.out.println("Zero.");
-		}
-		
+
 	}
 
 }

@@ -16,25 +16,51 @@ public class P3_12 {
 		System.out.print("Letter Grade: ");
 		String letterGrade = input.next();
 		input.close();
-		
+
 		double numericalValue = 0;
-		
-		switch(letterGrade) {
-		case "A+": numericalValue = 4.0; break;
-		case "A": numericalValue = 4.0; break;
-		case "A-": numericalValue = 3.7; break;
-		case "B+": numericalValue = 3.3; break;
-		case "B": numericalValue = 3.0; break;
-		case "B-": numericalValue = 2.7; break;
-		case "C+": numericalValue = 2.3; break;
-		case "C": numericalValue = 2.0; break;
-		case "C-": numericalValue = 1.7; break;
-		case "D+": numericalValue = 1.3; break;
-		case "D": numericalValue = 1.0; break;
-		case "D-": numericalValue = 0.7; break;
-		case "F": numericalValue = 0.0; break;
+
+		switch (letterGrade) {
+		case "A+":
+			numericalValue = 4.0;
+			break;
+		case "A":
+			numericalValue = 4.0;
+			break;
+		case "A-":
+			numericalValue = 3.7;
+			break;
+		case "B+":
+			numericalValue = 3.3;
+			break;
+		case "B":
+			numericalValue = 3.0;
+			break;
+		case "B-":
+			numericalValue = 2.7;
+			break;
+		case "C+":
+			numericalValue = 2.3;
+			break;
+		case "C":
+			numericalValue = 2.0;
+			break;
+		case "C-":
+			numericalValue = 1.7;
+			break;
+		case "D+":
+			numericalValue = 1.3;
+			break;
+		case "D":
+			numericalValue = 1.0;
+			break;
+		case "D-":
+			numericalValue = 0.7;
+			break;
+		case "F":
+			numericalValue = 0.0;
+			break;
 		}
-		
+
 		System.out.println(letterGrade + " has a numerical value of: " + numericalValue);
 		
 	}
