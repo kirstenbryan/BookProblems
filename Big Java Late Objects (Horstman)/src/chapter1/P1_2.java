@@ -12,11 +12,9 @@ public class P1_2 {
 	
 	public static void main(String args[]) {
 		
-		int sum = 0;
+		int sumFirstTenPositives = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
 		
-		for(int i = 1; i <= 10; i++) sum += i;
-		
-		System.out.println("The sum of the first ten positive numbers is: " + sum);
+		System.out.println("The sum of the first ten positive numbers is: " + sumFirstTenPositives);
 	
 	}
 
